@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/nevel-tech-test/static/css/main.f855e6bc.css",
-    "main.js": "/nevel-tech-test/static/js/main.6b4767a9.js",
+    "main.css": "/nevel-tech-test/static/css/main.8ee8066a.css",
+    "main.js": "/nevel-tech-test/static/js/main.47db08c0.js",
     "static/js/453.b084338e.chunk.js": "/nevel-tech-test/static/js/453.b084338e.chunk.js",
-    "static/media/logo.svg": "/nevel-tech-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/hero-1.png": "/nevel-tech-test/static/media/hero-1.13671b53b223b62ee3e3.png",
+    "static/media/main-game-2.png": "/nevel-tech-test/static/media/main-game-2.6271ccae2b7065ef17cc.png",
+    "static/media/hero-2.png": "/nevel-tech-test/static/media/hero-2.8888f85f683a350d40fe.png",
+    "static/media/main-game-1.png": "/nevel-tech-test/static/media/main-game-1.0d751afeb71957d64af2.png",
+    "static/media/main-game-3.png": "/nevel-tech-test/static/media/main-game-3.b44bc77229543f892afd.png",
+    "static/media/main-music.png": "/nevel-tech-test/static/media/main-music.8718d6f12c4291e63ba1.png",
+    "static/media/main-game.png": "/nevel-tech-test/static/media/main-game.a526223f30a44f4f4253.png",
+    "static/media/category3.png": "/nevel-tech-test/static/media/category3.81345962b9ee8d07ae66.png",
+    "static/media/category4.png": "/nevel-tech-test/static/media/category4.23b06fd7d4d01746bee2.png",
+    "static/media/category1.png": "/nevel-tech-test/static/media/category1.850d2a11323200bec4a0.png",
+    "static/media/sub-game-2.png": "/nevel-tech-test/static/media/sub-game-2.9f8144b89da9199ecc52.png",
+    "static/media/category2.png": "/nevel-tech-test/static/media/category2.50ed5e6932f04c7ec729.png",
+    "static/media/sub-game-1.png": "/nevel-tech-test/static/media/sub-game-1.a67d1e5211bffe54898c.png",
+    "static/media/sub-game-3.png": "/nevel-tech-test/static/media/sub-game-3.32a782a7e7300b461644.png",
     "index.html": "/nevel-tech-test/index.html",
-    "main.f855e6bc.css.map": "/nevel-tech-test/static/css/main.f855e6bc.css.map",
-    "main.6b4767a9.js.map": "/nevel-tech-test/static/js/main.6b4767a9.js.map",
+    "main.8ee8066a.css.map": "/nevel-tech-test/static/css/main.8ee8066a.css.map",
+    "main.47db08c0.js.map": "/nevel-tech-test/static/js/main.47db08c0.js.map",
     "453.b084338e.chunk.js.map": "/nevel-tech-test/static/js/453.b084338e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.6b4767a9.js"
+    "static/css/main.8ee8066a.css",
+    "static/js/main.47db08c0.js"
   ]
 }
