@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nevel-tech-test/static/css/main.8ee8066a.css",
+    "main.css": "/nevel-tech-test/static/css/main.e94613b1.css",
     "main.js": "/nevel-tech-test/static/js/main.47db08c0.js",
     "static/js/453.b084338e.chunk.js": "/nevel-tech-test/static/js/453.b084338e.chunk.js",
     "static/media/hero-1.png": "/nevel-tech-test/static/media/hero-1.13671b53b223b62ee3e3.png",
@@ -18,12 +18,12 @@
     "static/media/sub-game-1.png": "/nevel-tech-test/static/media/sub-game-1.a67d1e5211bffe54898c.png",
     "static/media/sub-game-3.png": "/nevel-tech-test/static/media/sub-game-3.32a782a7e7300b461644.png",
     "index.html": "/nevel-tech-test/index.html",
-    "main.8ee8066a.css.map": "/nevel-tech-test/static/css/main.8ee8066a.css.map",
+    "main.e94613b1.css.map": "/nevel-tech-test/static/css/main.e94613b1.css.map",
     "main.47db08c0.js.map": "/nevel-tech-test/static/js/main.47db08c0.js.map",
     "453.b084338e.chunk.js.map": "/nevel-tech-test/static/js/453.b084338e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee8066a.css",
+    "static/css/main.e94613b1.css",
     "static/js/main.47db08c0.js"
   ]
 }
