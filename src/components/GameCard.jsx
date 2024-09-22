@@ -13,16 +13,16 @@ const GameCard = ({item}) => {
                 <button className="game-card-button p7">View</button>
                 <div className="game-card-info">
                     <div>
-                        <p>{item.votality}</p>
-                        <p>Volatility</p>
+                        <p className="p3">{item.votality}</p>
+                        <p className="p5">Volatility</p>
                     </div>
                     <div>
-                        <p>{item.rtp}</p>
-                        <p>RTP</p>
+                        <p className="p3">{item.rtp}</p>
+                        <p className="p5">RTP</p>
                     </div>
                     <div>
-                        <p>{item.max}</p>
-                        <p>Maximum Win</p>
+                        <p className="p3">{item.max}</p>
+                        <p className="p5">Maximum Win</p>
                     </div>
 
                 </div>
