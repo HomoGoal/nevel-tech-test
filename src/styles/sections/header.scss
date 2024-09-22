@@ -1,0 +1,144 @@
+.header {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	height: 90px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.65);
+
+	.header-inner {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		max-width: 1400px;
+		height: 100%;
+		padding: 0 121px 0 63px;
+		margin: 0 auto;
+		box-sizing: border-box;
+
+		.header-logo {
+			height: 100%;
+
+			padding: 13px 0;
+
+			img {
+				height: 64px;
+				width: 109px;
+			}
+		}
+
+		.header-nav {
+			display: flex;
+			gap: 42px;
+			padding-right: 40px;
+			border-bottom: 1px solid #ffffff33;
+
+			button {
+				position: relative;
+				text-transform: uppercase;
+				background-color: transparent;
+				color: #ffffff80;
+				cursor: pointer;
+				transition: color 0.3s;
+
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 3px;
+					background-color: white;
+					opacity: 0;
+					transition: opacity 0.3s;
+				}
+
+				&:hover,
+				&.active {
+					color: #ffffff;
+
+					&::after {
+						opacity: 1;
+					}
+				}
+			}
+		}
+
+		.header-nav-mobile {
+			display: none;
+		}
+	}
+
+	@media (max-width: 1280px) {
+		height: 100px;
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0.5) 10%,
+			rgba(0, 0, 0, 0) 100%
+		);
+
+		.header-inner {
+			padding: 0;
+
+			.header-logo {
+				padding: 14px 0 0 17px;
+
+				img {
+					width: 53px;
+					height: 31px;
+				}
+			}
+
+			.header-nav {
+				position: absolute;
+				top: 0;
+				left: 0;
+				transform: translateY(-100%);
+				flex-direction: column;
+				width: 100vw;
+				height: 100vh;
+				padding: 128px 16px;
+				box-sizing: border-box;
+				background-color: white;
+				transition: transform 0.75s;
+
+				button {
+					color: black;
+
+					&::after {
+						background: #eeeeee;
+						opacity: 1;
+					}
+
+					&:hover,
+					&.active {
+						color: black;
+						opacity: 1;
+
+						&::after {
+							background: black;
+							opacity: 1;
+						}
+					}
+				}
+
+				&.active {
+					transform: translateY(0%);
+				}
+			}
+
+			.header-nav-mobile {
+				position: relative;
+				transform: translateX(0) translateY(0);
+				display: block;
+				cursor: pointer;
+				z-index: 10000;
+				transition: transform 0.5s;
+
+				&.active {
+					transform: translateX(-21px) translateY(53px);
+				}
+			}
+		}
+	}
+}
